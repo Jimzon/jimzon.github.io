@@ -177,7 +177,7 @@
                     <ul>
                         <li class="active" data-id="health-center">PARTSMAN</li>
                         <!-- <li class="" data-id="health-center">HEATLH CENTER</li> -->
-                        <li data-id="student-id">STUDENT ID CASHCARD</li>
+                        <li data-id="student-id">GOLDEN DREAMS</li>
                         <li data-id="dm-ai"> DM AI</li>
                         <li data-id="maqlit" >MAQIT</li>
                         <li data-id="day1" >DAY 1</li>
@@ -207,6 +207,15 @@
                     <h1 class="hero-title-2 f-base ">PARTSMAN</h1>
                     </div>
                 </div> 
+                <div id="student-id" class="d-none"> 
+                    <div id="project-image-container">
+                        <img src="./img/projects/goldendreams.png" alt="Dave Mark Health Center Project" class="pt-6 img-fluid">
+                    </div>
+                    <div id="project-des">
+                        <a class="btn btn-primary btn-md btn-lg btn-black modal-trigger" data-target="#studen-id-modal">VIEW MORE</a>
+                    <h1 class="hero-title-2 f-base ">GOLDEN DREAMS</h1>
+                    </div>
+                </div>
                 
                 <div id="dm-ai" class="d-none" >
                     <div id="project-image-container">
@@ -217,15 +226,7 @@
                     <h1 class="hero-title-2 f-base ">DM AI</h1>
                     </div>
                 </div>  
-                <div id="student-id" class="d-none"> 
-                    <div id="project-image-container">
-                        <img src="./img/projects/STUDENT_ID_CASHCARD.png" alt="Dave Mark Health Center Project" class="img-fluid">
-                    </div>
-                    <div id="project-des">
-                        <a class="btn btn-primary btn-md btn-lg btn-black modal-trigger" data-target="#studen-id-modal">VIEW MORE</a>
-                    <h1 class="hero-title-2 f-base ">STUDENT ID CASH CARD</h1>
-                    </div>
-                </div>
+              
                 <div id="maqlit" class="d-none">
                     <div id="project-image-container">
                         <img src="./img/projects/maqlit.png" alt="Dave Mark Health Center Project" class="img-fluid">
@@ -258,7 +259,7 @@
                     <h1 class="hero-title-2 gotham"><b>WORKS</b></h1>
                 </div>
                 <!-- CUSTOM MODALS -->
-                <div class="modal-gsap"  id="heath-center-modal">
+                <div class="modal-gsap partsman-modal"  id="heath-center-modal">
                     <div class="modal-gsap-head">
                         <span class="close-gmodal" data-close="#heath-center-modal">&times;</span>
                     </div>
@@ -272,7 +273,7 @@
                                 <div class="col-md-8 p-0">
                                     <div class="content-area-modal">
 
-                                        <h4 class="">PARTSMAN PH</h4>
+                                        <h4 class="text-3xl pb-2 font-bold">PARTSMAN PH</h4>
                                         <div class="text-sm mt-3">
                                             <p>
                                                 Partsman is an innovative e-commerce platform that specializes in selling a wide range of 
@@ -301,7 +302,37 @@ benefits of online shopping.
                         </div>
                     </div>
                 </div>
-                <div class="modal-gsap"  id="dm-ai-modal">
+                <div class="modal-gsap goldendreams-modal"  id="studen-id-modal">
+                    <div class="modal-gsap-head">
+                        <span class="close-gmodal" data-close="#studen-id-modal">&times;</span>
+                    </div>
+                    <div class="modal-gsap-content ">
+                        <div class="modal-img-hero">
+                            <img src="./img/projects/goldendreams.png" class="img-fluid">
+                        </div>
+                        <div class="container-fluid pad0 m-0 ">
+                            <div class="row ">
+                                <div class="col-md-8 p-0">
+                                    <div class="content-area-modal">
+
+                                        <h4 class="text-3xl pb-4 font-bold">GOLDEN DREAMS CORPORATION</h4>
+                                       
+                                       <p class="pb-2"> Golden Dreams Corporation, 
+                                        a distinguished real estate developer, trusted partner in turning dreams of 
+                                        the perfect home into golden realities. With a legacy of excellence and a vision that 
+                                        spans horizons, expanding in Mindanao regions. 
+                                       Crafting properties and shaping the future of
+                                         living in Mindanao. </p>
+
+
+                                   <p> You can be visit their website <a href="https://goldendreamscorporation.com/" class="red">goldendreamscorporation.com</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-gsap dm-ai-modal"  id="dm-ai-modal">
                     <div class="modal-gsap-head">
                         <span class="close-gmodal" data-close="#dm-ai-modal">&times;</span>
                     </div>
@@ -366,7 +397,7 @@ benefits of online shopping.
                         </div>
                     </div>
                 </div>
-                <div class="modal-gsap"  id="maqlit-modal">
+                <div class="modal-gsap maqlit-modal"  id="maqlit-modal">
                     <div class="modal-gsap-head">
                         <span class="close-gmodal" data-close="#maqlit-modal">&times;</span>
                     </div>
@@ -411,7 +442,7 @@ benefits of online shopping.
                         </div>
                     </div>
                 </div>
-                <div class="modal-gsap"  id="day1-modal">
+                <div class="modal-gsap day1-modal"  id="day1-modal">
                     <div class="modal-gsap-head">
                         <span class="close-gmodal" data-close="#day1-modal">&times;</span>
                     </div>
@@ -451,46 +482,8 @@ benefits of online shopping.
                         </div>
                     </div>
                 </div>
-                <div class="modal-gsap"  id="studen-id-modal">
-                    <div class="modal-gsap-head">
-                        <span class="close-gmodal" data-close="#studen-id-modal">&times;</span>
-                    </div>
-                    <div class="modal-gsap-content ">
-                        <div class="modal-img-hero">
-                            <img src="https://ahc45.github.io/Portfolio/img/projects/STUDENT_ID_CASHCARD.png" class="img-fluid">
-                        </div>
-                        <div class="container-fluid pad0 m-0 ">
-                            <div class="row ">
-                                <div class="col-md-8 p-0">
-                                    <div class="content-area-modal">
-
-                                        <h1 class="hero-title-3">STUDENT ID CASHCARD</h1>
-                                        This is my thesis project where I give my full effort and apply what I learn during my studies.
-                                        The project consist of 2 components Hardware and software.
-                                        <br>
-                                        I created the prototype's hardware component which is made with arduino, and Arduino components such as:
-                                        <ul>
-                                            <li>Arduino Ehternet</li>
-                                            <li>NFC tech</li>
-                                            <li>IoT keypad</li>
-                                            <li>LCD and many others</li>
-                                        </ul>
-                                        the prototype is connected to the internet which is serve by Apache server, 
-                                        and the software compoment is written in core PHP at backend and jquery,CSS3 HTML5,Bootstrap in frontend.
-                                       <br>
-                                       Student ID Cashcard will solve the problem in canteen's cash changes. The objective is to lessen the quuue that causes in payment.
-                                       With this tech during break time student will be able to order, tap and go.
-
-                                       This thesis project was awarded a "Best in Thesis Award" by my alma mater.
-
-                                       Project prototype site can be visit <a href="http://davemarkresume.x10host.com" class="red">here</a> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-gsap"  id="vaporth-modal">
+              
+                <div class="modal-gsap vaporthority-modal"  id="vaporth-modal">
                     <div class="modal-gsap-head">
                         <span class="close-gmodal" data-close="#vaporth-modal">&times;</span>
                     </div>

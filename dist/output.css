@@ -647,6 +647,10 @@ video {
   padding-bottom: 1.5rem !important;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -667,6 +671,10 @@ video {
   padding-top: 1.5rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -680,6 +688,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -688,6 +701,10 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
