@@ -1,0 +1,23 @@
+{
+  "name": "jimzon-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimzon/jimzon.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jimzon/jimzon.github.io/issues"
+  },
+  "homepage": "https://github.com/Jimzon/jimzon.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

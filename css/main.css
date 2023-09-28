@@ -1,30 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,700;1,400&display=swap");
 @font-face {
-  font-family: 'Gotham Book';
-  src: url("/fonts/gotham/Gotham-Book.woff2") format("woff2"), url("/fonts/gotham/Gotham-Book.woff") format("woff");
+  font-family: "Gotham Book";
+  src: url("/fonts/gotham/Gotham-Book.woff2") format("woff2"),
+    url("/fonts/gotham/Gotham-Book.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 100%;
   scroll-behavior: smooth;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 a.red {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 a:hover {
   -webkit-filter: invert(10%);
-          filter: invert(10%);
+  filter: invert(10%);
   text-decoration: none !important;
 }
 
@@ -32,82 +35,95 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Epilogue', sans-serif;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
 }
 
 .color-white {
-  color: #F6F4F2;
+  color: #f6f4f2;
 }
 
 /* White */
 .color-black {
-  color: #2E2C2C;
+  color: #2e2c2c;
 }
 
 /* Black */
-.color-red, .color-targets {
-  color: #FF4B4B;
+.color-red,
+.color-targets {
+  color: #ff4b4b;
 }
 
 /* red: */
-.color-orange, .color-properties {
-  color: #FF8F42;
+.color-orange,
+.color-properties {
+  color: #ff8f42;
 }
 
 /* orange: */
-.color-lightorange, .color-prop-params {
-  color: #FFC730;
+.color-lightorange,
+.color-prop-params {
+  color: #ffc730;
 }
 
 /* lightorange: */
-.color-yellow, .color-anim-params {
-  color: #F6FF56;
+.color-yellow,
+.color-anim-params {
+  color: #f6ff56;
 }
 
 /* yellow: */
-.color-citrus, .color-values {
-  color: #A4FF4F;
+.color-citrus,
+.color-values {
+  color: #a4ff4f;
 }
 
 /* citrus: */
-.color-green, .color-keyframes {
-  color: #18FF74;
+.color-green,
+.color-keyframes {
+  color: #18ff74;
 }
 
 /* green: */
-.color-darkgreen, .color-staggering {
-  color: #00D672;
+.color-darkgreen,
+.color-staggering {
+  color: #00d672;
 }
 
 /* darkgreen: */
-.color-turquoise, .color-tl {
-  color: #3CFFEC;
+.color-turquoise,
+.color-tl {
+  color: #3cffec;
 }
 
 /* turquoise: */
-.color-skyblue, .color-controls {
-  color: #61C3FF;
+.color-skyblue,
+.color-controls {
+  color: #61c3ff;
 }
 
 /* skyblue: */
-.color-kingblue, .color-callbacks {
-  color: #5A87FF;
+.color-kingblue,
+.color-callbacks {
+  color: #5a87ff;
 }
 
 /* kingblue: */
-.color-lavender, .color-svg {
-  color: #8453E3;
+.color-lavender,
+.color-svg {
+  color: #8453e3;
 }
 
 /* lavender: */
-.color-purple, .color-easings {
-  color: #C26EFF;
+.color-purple,
+.color-easings {
+  color: #c26eff;
 }
 
 /* purple: */
-.color-pink, .color-helpers {
-  color: #FB89FB;
+.color-pink,
+.color-helpers {
+  color: #fb89fb;
 }
 
 /* pink: */
@@ -139,7 +155,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -156,7 +172,7 @@ body {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -185,7 +201,7 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -236,7 +252,7 @@ body {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   height: 36px;
-  border: 2px solid #3399FF;
+  border: 2px solid #3399ff;
   z-index: 1;
 }
 
@@ -254,7 +270,7 @@ body {
   width: 100%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border: 2px solid #3399FF;
+  border: 2px solid #3399ff;
 }
 
 .effect-6 ~ .focus-border {
@@ -271,7 +287,7 @@ body {
   width: 100%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border: 2px solid #3399FF;
+  border: 2px solid #3399ff;
 }
 
 .effect-7,
@@ -291,7 +307,7 @@ body {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -309,7 +325,7 @@ body {
   left: 0;
   width: 2px;
   height: 0;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
@@ -343,7 +359,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -363,7 +379,7 @@ body {
   left: 0;
   width: 2px;
   height: 0;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -397,11 +413,11 @@ body {
   right: 0;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .effect-9 ~ .focus-border:after {
@@ -410,7 +426,7 @@ body {
   right: auto;
   left: 0;
   -webkit-transition-delay: 0.6s;
-          transition-delay: 0.6s;
+  transition-delay: 0.6s;
 }
 
 .effect-9 ~ .focus-border i:before,
@@ -421,7 +437,7 @@ body {
   left: 0;
   width: 2px;
   height: 0;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -432,7 +448,7 @@ body {
   top: auto;
   bottom: 0;
   -webkit-transition-delay: 0.4s;
-          transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
 .effect-9:focus ~ .focus-border:before,
@@ -441,12 +457,12 @@ body {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   -webkit-transition-delay: 0.6s;
-          transition-delay: 0.6s;
+  transition-delay: 0.6s;
 }
 
 .effect-9:focus ~ .focus-border:after {
   -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .effect-9:focus ~ .focus-border i:before,
@@ -458,7 +474,7 @@ body {
 
 .effect-9:focus ~ .focus-border i:after {
   -webkit-transition-delay: 0.4s;
-          transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
 .effect-10,
@@ -652,7 +668,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -676,10 +692,11 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-16:focus ~ label, .has-content.effect-16 ~ label {
+.effect-16:focus ~ label,
+.has-content.effect-16 ~ label {
   top: -16px;
   font-size: 12px;
-  color: #3399FF;
+  color: #3399ff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -690,7 +707,7 @@ body {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -715,10 +732,11 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-17:focus ~ label, .has-content.effect-17 ~ label {
+.effect-17:focus ~ label,
+.has-content.effect-17 ~ label {
   top: -16px;
   font-size: 12px;
-  color: #3399FF;
+  color: #3399ff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -740,7 +758,7 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -771,10 +789,11 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-18:focus ~ label, .has-content.effect-18 ~ label {
+.effect-18:focus ~ label,
+.has-content.effect-18 ~ label {
   top: -16px;
   font-size: 12px;
-  color: #3399FF;
+  color: #3399ff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -797,7 +816,7 @@ body {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -815,7 +834,7 @@ body {
   left: 0;
   width: 2px;
   height: 0;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
@@ -857,11 +876,12 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-19:focus ~ label, .has-content.effect-19 ~ label {
+.effect-19:focus ~ label,
+.has-content.effect-19 ~ label {
   top: -18px;
   left: 0;
   font-size: 12px;
-  color: #3399FF;
+  color: #3399ff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -874,7 +894,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -894,7 +914,7 @@ body {
   left: 0;
   width: 2px;
   height: 0;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -936,11 +956,12 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-20:focus ~ label, .has-content.effect-20 ~ label {
+.effect-20:focus ~ label,
+.has-content.effect-20 ~ label {
   top: -18px;
   left: 0;
   font-size: 12px;
-  color: #3399FF;
+  color: #3399ff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -953,11 +974,11 @@ body {
   right: 0;
   width: 0;
   height: 2px;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .effect-21 ~ .focus-border:after {
@@ -966,7 +987,7 @@ body {
   right: auto;
   left: 0;
   -webkit-transition-delay: 0.6s;
-          transition-delay: 0.6s;
+  transition-delay: 0.6s;
 }
 
 .effect-21 ~ .focus-border i:before,
@@ -977,7 +998,7 @@ body {
   left: 0;
   width: 2px;
   height: 0;
-  background-color: #3399FF;
+  background-color: #3399ff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -988,7 +1009,7 @@ body {
   top: auto;
   bottom: 0;
   -webkit-transition-delay: 0.4s;
-          transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
 .effect-21:focus ~ .focus-border:before,
@@ -999,13 +1020,13 @@ body {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   -webkit-transition-delay: 0.6s;
-          transition-delay: 0.6s;
+  transition-delay: 0.6s;
 }
 
 .effect-21:focus ~ .focus-border:after,
 .has-content.effect-21 ~ .focus-border:after {
   -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .effect-21:focus ~ .focus-border i:before,
@@ -1020,7 +1041,7 @@ body {
 .effect-21:focus ~ .focus-border i:after,
 .has-conten.effect-21 ~ .focus-border i:after {
   -webkit-transition-delay: 0.4s;
-          transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
 .effect-21 ~ label {
@@ -1035,11 +1056,12 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-21:focus ~ label, .has-content.effect-21 ~ label {
+.effect-21:focus ~ label,
+.has-content.effect-21 ~ label {
   top: -18px;
   left: 0;
   font-size: 12px;
-  color: #3399FF;
+  color: #3399ff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -1086,7 +1108,8 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-22:focus ~ label, .has-content.effect-22 ~ label {
+.effect-22:focus ~ label,
+.has-content.effect-22 ~ label {
   top: -18px;
   left: 0;
   font-size: 12px;
@@ -1144,7 +1167,8 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-23:focus ~ label, .has-content.effect-23 ~ label {
+.effect-23:focus ~ label,
+.has-content.effect-23 ~ label {
   top: -18px;
   left: 0;
   font-size: 12px;
@@ -1206,7 +1230,8 @@ body {
   letter-spacing: 0.5px;
 }
 
-.effect-24:focus ~ label, .has-content.effect-24 ~ label {
+.effect-24:focus ~ label,
+.has-content.effect-24 ~ label {
   top: -18px;
   left: 0;
   font-size: 12px;
@@ -1217,27 +1242,33 @@ body {
 
 /*= input focus effects css End
 =============================== */
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Epilogue', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Epilogue", sans-serif;
 }
 
 .epilogue-normal {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-weight: Normal;
 }
 
 .epilogue-Bold {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-weight: bold;
 }
 
 .gotham {
-  font-family: 'Gotham', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Gotham", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: Normal;
 }
 
 .gotham-bold {
-  font-family: 'Gotham', "Helvetica Neue", Helvetica, sans-serif !important;
+  font-family: "Gotham", "Helvetica Neue", Helvetica, sans-serif !important;
   font-weight: bold;
 }
 
@@ -1250,7 +1281,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: 0 !important;
   font-size: 15px !important;
   letter-spacing: 2px;
-  color: #C1C1C1 !important;
+  color: #c1c1c1 !important;
   padding: 12px 18px !important;
 }
 
@@ -1296,11 +1327,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .f-base {
-  color: #C1C1C1;
+  color: #c1c1c1;
 }
 
-.no-gutter [class*='col-']:not(:first-child),
-.no-gutter [class*='col-']:not(:last-child) {
+.no-gutter [class*="col-"]:not(:first-child),
+.no-gutter [class*="col-"]:not(:last-child) {
   padding-right: 0;
   padding-left: 0;
 }
@@ -1384,9 +1415,9 @@ textarea {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-rows: 1fr;
 }
 
 .relative {
@@ -1400,7 +1431,8 @@ textarea {
   margin: 0;
 }
 
-#home, #contact {
+#home,
+#contact {
   background: #101213;
   z-index: 1;
 }
@@ -1427,17 +1459,17 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .align-center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 h3#stacks-lead {
@@ -1472,8 +1504,8 @@ h3#stacks-lead {
   left: 0;
   right: 0;
   top: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
 
 #navigation-container.open {
@@ -1483,17 +1515,17 @@ h3#stacks-lead {
 #navigation-container.close {
   opacity: 0;
   -webkit-transform: translateX(200%);
-          transform: translateX(200%);
+  transform: translateX(200%);
 }
 
 #navigation-container.close #social-side {
   -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 #navigation-container.close #nav-side {
   -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
 .nav-container {
@@ -1501,13 +1533,13 @@ h3#stacks-lead {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -ms-grid-rows: 2fr;
-      grid-template-rows: 2fr;
+  grid-template-rows: 2fr;
   padding-right: 15%;
   position: relative;
 }
@@ -1529,7 +1561,7 @@ h3#stacks-lead {
 }
 
 a {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .navi-section {
@@ -1540,8 +1572,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 1001;
   background: #070506;
   -webkit-transition: all 1s;
@@ -1553,8 +1585,8 @@ a {
   width: 120px;
   height: 120px;
   margin: auto;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .navi-section .v-line {
@@ -1590,8 +1622,8 @@ a {
   position: fixed;
   z-index: 101;
   color: #fff;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .navi-section.complete .nav-hamburger {
@@ -1621,23 +1653,23 @@ a {
   top: 17vh;
   position: absolute;
   right: 65px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   display: block;
 }
 
 .navi-section.complete .l-logo {
   font-size: 20px;
   -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
   text-orientation: mixed;
   letter-spacing: 2px;
   position: absolute;
   bottom: 7vh;
   right: 50px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   display: block;
 }
 
@@ -1669,8 +1701,8 @@ a {
   position: relative;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
@@ -1684,8 +1716,8 @@ a {
   left: 0;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 #nav-icon1 span:nth-child(1) {
@@ -1704,7 +1736,7 @@ a {
 }
 
 #nav-icon1.open span {
-  background: #9A0000 !important;
+  background: #9a0000 !important;
 }
 
 #nav-icon1.open span:nth-child(1) {
@@ -1740,11 +1772,11 @@ a {
 }
 
 .nav-item {
-  color: #C1C1C1;
+  color: #c1c1c1;
   -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
   list-style-type: none;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   position: relative;
   margin-top: -30px;
 }
@@ -1772,14 +1804,14 @@ a {
 
 .nav-item li div::before {
   content: "";
-  background: #9A0000;
+  background: #9a0000;
   width: 20%;
   height: 10px;
   position: absolute;
   bottom: 20px;
   z-index: -1;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .nav-item li:hover div::before {
@@ -1798,11 +1830,11 @@ a {
   width: 100vw;
   height: 100vh;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   color: #fff;
 }
@@ -1813,11 +1845,11 @@ a {
   display: flex;
   list-style-type: none;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   font-size: 25px;
   -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
   margin-top: 5%;
 }
 
@@ -1830,7 +1862,7 @@ a {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #FF0000;
+  background-color: #ff0000;
   position: absolute;
   left: 147%;
   top: 10%;
@@ -1855,7 +1887,7 @@ a {
 
 .social-nav {
   min-height: 300px;
-  border-left: 3px solid #FF0000;
+  border-left: 3px solid #ff0000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1863,9 +1895,9 @@ a {
 
 .social-nav ul {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  color: #C1C1C1;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: #c1c1c1;
   list-style-type: none;
   font-size: 20px;
 }
@@ -1885,15 +1917,15 @@ a {
   right: 0;
   top: 30%;
   z-index: 3;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 #project-nav ul {
   list-style-type: none;
   position: relative;
   -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
   color: #fff;
   text-align: right;
 }
@@ -1903,12 +1935,12 @@ a {
   font-size: 14px;
   position: relative;
   cursor: pointer;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #project-nav ul :before {
-  content: '';
+  content: "";
   position: absolute;
   border: none;
   left: -40%;
@@ -1916,7 +1948,7 @@ a {
 }
 
 #project-nav ul .active:before {
-  content: '';
+  content: "";
   width: 60%;
   height: 2px;
   position: absolute;
@@ -1959,7 +1991,7 @@ a {
   min-width: 60%;
   justify-self: center;
   -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1977,13 +2009,13 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 .stack-nav .stack-arrows div {
-  border: 1px solid #FF0000;
+  border: 1px solid #ff0000;
   margin: 0 15px;
   padding: 4px 0;
 }
@@ -1995,7 +2027,7 @@ a {
 
 .stack-nav .stack-arrows span:before {
   -webkit-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
 }
 
 .row {
@@ -2016,20 +2048,20 @@ a {
   max-width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (15%)[6];
-      grid-template-columns: repeat(6, 15%);
+  -ms-grid-columns: (15%) [6];
+  grid-template-columns: repeat(6, 15%);
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
 }
 
 #stack-list i {
   padding: 15px;
   margin: 0 20px;
-  border: 1px solid #FF0000;
+  border: 1px solid #ff0000;
   border-radius: 50%;
   font-size: 30px;
-  color: #FF0000;
+  color: #ff0000;
   cursor: pointer;
 }
 
@@ -2049,8 +2081,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #fff;
 }
 
@@ -2155,7 +2187,7 @@ span.close-gmodal {
     width: 600px;
     height: 450px;
     -webkit-transform: translateX(54vw) translateY(20vh);
-            transform: translateX(54vw) translateY(20vh);
+    transform: translateX(54vw) translateY(20vh);
   }
   #project-image-container {
     max-width: 70%;
@@ -2207,7 +2239,7 @@ span.close-gmodal {
     width: 400px;
     height: 400px;
     -webkit-transform: translateX(34vw) translateY(58vh);
-            transform: translateX(34vw) translateY(58vh);
+    transform: translateX(34vw) translateY(58vh);
   }
   #project-image-container {
     top: 30%;
@@ -2232,15 +2264,15 @@ span.close-gmodal {
   .navi-section.complete .nav-hamburger {
     top: 15%;
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
   .navi-section.complete .logo {
     top: 7%;
     left: 80%;
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-    -webkit-filter: invert(1);
-            filter: invert(1);
+    transform: scale(0.8);
+    /* -webkit-filter: invert(1);
+    filter: invert(1); */
   }
   .navi-section.complete .l-logo {
     display: none;
@@ -2257,8 +2289,8 @@ span.close-gmodal {
   .stack-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-flow: wrap-reverse;
-            flex-flow: wrap-reverse;
+    -ms-flex-flow: wrap-reverse;
+    flex-flow: wrap-reverse;
     padding-right: 0;
     left: 0;
     bottom: 4%;
@@ -2266,13 +2298,13 @@ span.close-gmodal {
   }
   .stack-nav .stack-arrows {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
     margin-left: -4%;
   }
   #stack-list {
     margin: 20px 0;
-    -ms-grid-columns: (16%)[5];
-        grid-template-columns: repeat(5, 16%);
+    -ms-grid-columns: (16%) [5];
+    grid-template-columns: repeat(5, 16%);
     font-size: 35px;
     grid-gap: 10px;
   }
@@ -2350,7 +2382,7 @@ span.close-gmodal {
 }
 
 a {
-  color: #C1C1C1;
+  color: #c1c1c1;
   text-decoration: none;
 }
 
